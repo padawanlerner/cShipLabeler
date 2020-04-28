@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "..\orderlookup\inc\orderlookup.h"
 
 int main(int argc, char const *argv[]) {
   /* code */
@@ -17,7 +18,7 @@ int main(int argc, char const *argv[]) {
   char lookupField[20];
 
   option = 0;
-
+  printf("%d", test());
   while (option < 4)
   {
     printf("Welcome to simple shipper.\n");
