@@ -3,4 +3,6 @@ int test();
 struct Order lookupOrder(char *lookupID);
 
 // some other function that scanfs order data from the user
-struct Order enterOrder();
+struct Order enterOrder(char *lookupID);
+
+void test2(char arrayOfStrings[][20], int sizeOfArray);

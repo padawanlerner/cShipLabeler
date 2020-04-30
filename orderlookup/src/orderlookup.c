@@ -6,6 +6,16 @@ int test()
     return 12;
 }
 
+// this function takes an an array of 20 character (or less) strings
+void test2(char arrayOfStrings[][20], unsigned sizeOfArray){
+    for (unsigned i = 0; i < sizeOfArray; i++)
+    {
+        /* code */
+        strncpy(arrayOfStrings[i], "gahhhhhhhhhhhh!",19);
+    }
+    
+}
+
 struct Order lookupOrder(char *lookup)
 {
     struct Order resultOrd;

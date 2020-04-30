@@ -10,6 +10,17 @@ int main(int argc, char const *argv[])
   // look up data in file
   // send data to ship label api
   // format data to label
+
+  // char *testme[2];
+  char testme[2][20];
+  test2(testme, 2);
+  for (size_t i = 0; i < 2; i++)
+  {
+    printf("The string %s\n", testme[i]);
+  }
+  
+  return 0;
+
   unsigned option;
 
   option = 0;
