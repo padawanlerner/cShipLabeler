@@ -1,4 +1,6 @@
-#include "..\inc\orderstruct.h"
+#include "../inc/orderstruct.h"
+#include <stdio.h>
+#include <string.h>
 int test()
 {
     return 12;
